@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.bg{
+    background: url('images/waterfall.jpg');
+    position: absolute;
+    height:calc(100vh + 80px);
+    width:100vw;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(0px);
+    top: -40px;
+    left: -40px;
+}
+
+.loading-text{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
